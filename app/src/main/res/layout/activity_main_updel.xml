@@ -11,30 +11,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainUpdel"><TextView
+    tools:context=".MainUpdel">
+    <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Hello welcome to Update and Delete" />
+    android:text="Update or Delete this selected Archtypes"
+    android:textSize="20dp"
+    />
     <EditText
         android:id="@+id/updel_nama"
         android:layout_marginTop="20dp"
-        android:hint="Nama"
+        android:hint="archtypes name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
     <EditText
         android:id="@+id/updel_kelas"
-        android:hint="Kelas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="115dp"
+        android:hint="archtypes description" />
+
     <Button
         android:id="@+id/btn_up"
         android:layout_marginTop="20dp"
         android:text="UPDATE"
+        android:backgroundTint="@android:color/holo_red_light"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btn_del"
         android:text="DELETE"
+        android:backgroundTint="@android:color/holo_red_light"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

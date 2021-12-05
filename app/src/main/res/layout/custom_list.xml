@@ -5,7 +5,6 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/list_row_selector"
     android:padding="5dp">
     <LinearLayout
         android:layout_weight="2"
@@ -28,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/rating"
         android:layout_alignLeft="@+id/rating"
-        android:text="NAMA"
+        android:text="Archtypes"
         android:textColor="@color/black"
         android:textStyle="bold" />
         <TextView
@@ -38,7 +37,7 @@
             android:layout_below="@+id/text_nama"
             android:layout_toEndOf="@+id/iconid"
             android:layout_toRightOf="@+id/iconid"
-            android:text="KELAS"
+            android:text="Description"
             android:textColor="@color/black" />
     </LinearLayout>
 </LinearLayout>

@@ -40,8 +40,8 @@ public class CustomListAdapter extends BaseAdapter {
         TextView kelas = (TextView)convertView.findViewById(R.id.text_kelas);
         ImageView imageView = (ImageView)convertView.findViewById(R.id.iconid);
         Mahasiswa m = Mahasiswa.get(position);
-        nama.setText("Nama : "+ m.get_nama());
-        kelas.setText("Kelas : "+ m.get_kelas());
+        nama.setText("Archtypes : "+ m.get_nama());
+        kelas.setText("Desc : "+ m.get_kelas());
         return convertView;
     }
 }

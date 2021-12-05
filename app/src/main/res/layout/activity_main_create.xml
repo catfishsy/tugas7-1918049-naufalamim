@@ -15,21 +15,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello welcome to Create" /><EditText
+        android:text="Add New Archtypes"
+        android:textSize="24dp"/>
+
+    <EditText
     android:id="@+id/create_nama"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="20dp"
-    android:hint="Nama" />
+    android:hint="archtypes name" />
+
     <EditText
         android:id="@+id/create_kelas"
-        android:hint="Kelas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="115dp"
+        android:hint="archtypes description" />
     <Button
         android:id="@+id/create_btn"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_red_light"
         android:text="CREATE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
 </LinearLayout>
